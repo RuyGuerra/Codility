@@ -13,10 +13,9 @@ namespace BinaryGap
             var input = "";
             while (input != "exit")
             {
-
+                Console.Write("input: ");
                 input = Console.ReadLine();
                 Console.WriteLine(Solution.solution(int.Parse(input)));
-                //Console.WriteLine(">>>" + input + "<<<");
 
             }
 
