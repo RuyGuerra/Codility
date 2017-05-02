@@ -16,7 +16,6 @@ namespace BinaryGap
                 Console.Write("input: ");
                 input = Console.ReadLine();
                 Console.WriteLine(Solution.solution(int.Parse(input)));
-
             }
 
 
